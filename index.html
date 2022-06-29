@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu fuente de sodas</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- entrada de los css  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!-- header secsion de inicio -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> sodas oasis </a>
+
+    <nav class="navbar">
+        <a href="#home">inicio</a>
+        <a href="#products">productos</a>
+        <a href="#categories">Nosotros</a>
+        <a href="#review">Recomendaciones</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/cart-img-1.png" alt="">
+            <div class="content">
+                <h3>watermelon</h3>
+                <span class="price">$4.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/cart-img-2.png" alt="">
+            <div class="content">
+                <h3>onion</h3>
+                <span class="price">$4.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/cart-img-3.png" alt="">
+            <div class="content">
+                <h3>chicken</h3>
+                <span class="price">$4.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="total"> total : $19.69/- </div>
+        <a href="#" class="btn">checkout</a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="your email" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <p>forget your password <a href="#">click here</a></p>
+        <p>don't have an account <a href="#">create now</a></p>
+        <input type="submit" value="login now" class="btn">
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>refresca tu dia  <span>con alguna bebida</span> especial para ti</h3>
+        <p> Hola somos el equipo de fuende de sodas el oasis, estamos para servirte en todo lo que necesites, todos nuestros productos son 100% natuareles  de la mejor calidad, dale un gusto a tu paladar con nuestros productos</p>
+        <a href="#" class="btn">Comprar ahora</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- features section starts  -->
+
+<section class="features" id="features">
+
+    <h1 class="heading"> nuestras <span>Caracteristicas</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="https://i.ibb.co/7R6vZP9/247b23186f0d39f53db611a1cf57bee5.jpg" alt="">
+            <h3>fresco y organico</h3>
+            <p>Nuestros productos los seleccionamos de manera minusiosa que sean frescos y de temporada </p>
+            <a href="#" class="btn">leer mas</a>
+        </div>
+
+        <div class="box">
+            <img src="https://i.ibb.co/5rnggmG/28dc31b35b243051894fa571a929eeb3.jpg" alt="">
+            <h3>Personal</h3>
+            <p>Para nosotros es importante tu opinion por eso nuestro personal estara atento si tienes algun comentario o si le podemos agregar algo que le falte a tu bebida no dudes en pedirlo </p>
+            <a href="#" class="btn">leer mas </a>
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- productos seccion empexar   -->
+
+<section class="products" id="products">
+
+    <h1 class="heading"> nuestros <span>productos</span> </h1>
+
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="https://i.ibb.co/QQMsWtP/8c5996a863d9b5acfa8199fbd536f9cd.jpg" alt="">
+                <h3>Jugo de naranja</h3>
+                <div class="price"> medio $18.. litro $22 </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Añadir al carrito</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="https://i.ibb.co/Vq6fHk9/2a86d50b8ee0f868fff9640c71ccc1e9.jpg" alt="">
+                <h3>Juego Verde</h3>
+                <div class="price"> $45 (solo se venden litros) </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Añadir al carrito</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="https://i.ibb.co/743xKnr/d3980dfe3315902e3b804842cde9f421.jpg" alt="">
+                <h3>Antigripal</h3>
+                <div class="price"> $45 (solo litros) </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Añadir al carrito</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="https://i.ibb.co/6yL2ykS/52c659d545f9880d595e6e43e5f451fa.jpg" alt="">
+                <h3>Mandarina</h3>
+                <div class="price"> precio por temporada </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Añadir al carrito</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="https://i.ibb.co/8P2pMDt/fdee271d41e7824aba1e2f0a19ff51c5-cocktail-party-party-drinks.jpg" alt="">
+                <h3>Toronja</h3>
+                <div class="price"> precio por temporada </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Añadir al carrito</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="https://i.ibb.co/L8Ntgg4/1e720745aab8f5061877e6a835b454c0.jpg" alt="">
+                <h3>Combinados</h3>
+                <div class="price"> sujeto a el combinado que deseas </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="https://i.ibb.co/xYR5FV1/49af8997c7ccc47690f9b32656964639.jpg" alt="">
+                <h3>tropical</h3>
+                <div class="price"> papaya,piña y naranja (precio por temporada)</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Añadir al carrito</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="https://i.ibb.co/nMLx53Z/324a0e7399e403191c405bdf23f73441.jpg" alt="">
+                <h3>conga</h3>
+                <div class="price"> Fresa, melon, papaya y naranja </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Añadir al carrito</a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</section>
+
+<!-- products section ends -->
+
+<!-- categories section starts  -->
+
+<section class="categories" id="categories">
+
+    <h1 class="heading"> disfruta <span> nuestros licuados</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="https://i.ibb.co/VDx1ZBt/a735f68d0065c1b0af40b4e84d0fab41-bananas-food-art.jpg" alt="">
+            <h3>platano</h3>
+            <p>Disfruta un licuado de platano para empezar tu dia</p>
+            <a href="#" class="btn">agregar</a>
+        </div>
+
+        <div class="box">
+            <img src="https://i.ibb.co/j6dmjyk/2742017ae1c89224fbdca547e3db164e.jpg" alt="">
+            <h3>fresa</h3>
+            <p>Disfruta nuestro licuado de la mejor fresa </p>
+            <a href="#" class="btn">agregar</a>
+        </div>
+
+        <div class="box">
+            <img src="https://i.ibb.co/4jG3ZFT/5464ec9a2c68c9bfe31cde3c8c2c84c1-banana-smoothies-energy-smoothies.jpg" alt="">
+            <h3>Chocolate</h3>
+            <p>Nada mejor en la mañana que un buen licuado de chocolate</p>
+            <a href="#" class="btn">agregar</a>
+        </div>
+
+        <div class="box">
+            <img src="https://i.ibb.co/10mcpV9/5586855eb98511fda97cbcb7504ffcd5-alcohol-smoothie.jpg" alt="">
+            <h3>nuez</h3>
+            <p>si con el pie derecho quieres empezar licuado de nuez debes tomar</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+
+        <div class="box">
+            <img src="https://i.ibb.co/YNr7yDs/8377c321c389d18b581af66e14a324b9.jpg" alt="">
+            <h3>guayaba</h3>
+            <p>atrevete a probarme  </p>
+            <a href="#" class="btn">agregar</a>
+        </div>
+
+
+        <div class="box">
+            <img src="https://i.ibb.co/ssjM7qt/acca7c222b63e94e9ec9cdd2c44a0011.jpg" alt="">
+            <h3>tiple AAA</h3>
+            <p>Platano,fresa,avena y canela</p>
+            <a href="#" class="btn">agregar</a>
+        </div>
+
+
+        <div class="box">
+            <img src="https://i.ibb.co/ydpJgNb/3840a723b53256a4896e046fa96003e7.jpg" alt="">
+            <h3>Fuerte</h3>
+            <p>Platano,chocolate y granola</p>
+            <a href="#" class="btn">agregar</a>
+        </div>
+
+
+        <div class="box">
+            <img src="https://i.ibb.co/ZTWjsPH/02bc0e3a3b0217b04e5719cfb54f22ab.jpg" alt="">
+            <h3> Super fuerte</h3>
+            <p>Amaranto,Platano, canela,vainilla y miel  </p>
+            <a href="#" class="btn">agregar</a>
+        </div>
+
+
+        <div class="box">
+            <img src="https://i.ibb.co/YPGsxcm/4a4712d9c901e40f1431f0ac838f3bda.jpg" alt="">
+            <h3>Leche</h3>
+            <p>En todos nuestros productos usamos leche de la mejor calidad</p>
+            <a href="#" class="btn">agregar</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- aguas  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading"> refreca tu dia <span> con nuestras aguas</span> </h1>
+
+    <div class="swiper review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="https://i.ibb.co/Wkgjh8p/dc41e1f6c164828cbc8c3123628ecc74.jpg" alt="">
+                <p>prueba nuestras aguas frescas hechas en el momento </p>
+                <h3>naranja</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="https://i.ibb.co/nMLx53Z/324a0e7399e403191c405bdf23f73441.jpg" alt="">
+                <p>prueba nuestras aguas frescas hechas en el momento</p>
+                <h3>fresa</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="https://i.ibb.co/MkKFn5q/601295b387b1e90a59fa20cb4aa2d4d0.jpg" alt="">
+                <p>prueba nuestras aguas frescas hechas en el momento</p>
+                <h3>guayaba</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="https://i.ibb.co/rmhrKRQ/0f597d9716bb95187a45102d3b36e97e.jpg" alt="">
+                <p>prueba nuestras aguas frescas hechas en el momento</p>
+                <h3>piña</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+
+            <div class="swiper-slide box">
+                <img src="https://i.ibb.co/WGs6SZs/4c455d258f95567974d4c3cbc55fc2d5.jpg" alt="">
+                <p>prueba nuestras aguas frescas hechas en el momento </p>
+                <h3>pepino</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            
+            <div class="swiper-slide box">
+                <img src="https://i.ibb.co/pKYvWbH/6bbcfb6b8b6dea8ed05d5f3f836933da.jpg" alt="">
+                <p>prueba nuestras aguas frescas hechas en el momento</p>
+                <h3>sandia</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+
+            <div class="swiper-slide box">
+                <img src="https://i.ibb.co/nsf4N12/932e8d332d5160b030f0535ab7f35ce6.jpg" alt="">
+                <p>prueba nuestras aguas frescas hechas en el momento</p>
+                <h3>melon</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- esquimos  -->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> refrescate <span>con nuestros esquimos</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="image/blog-1.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> by user </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2021 </a>
+                </div>
+                <h3>fresh and organic vegitables and fruits</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, expedita.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/blog-2.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> by user </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2021 </a>
+                </div>
+                <h3>fresh and organic vegitables and fruits</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, expedita.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/blog-3.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> by user </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2021 </a>
+                </div>
+                <h3>fresh and organic vegitables and fruits</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, expedita.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3> groco <i class="fas fa-shopping-basket"></i> </h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, saepe.</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i> shaikhanas@gmail.com </a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> mumbai, india - 400104 </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> features </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> products </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <input type="email" placeholder="your email" class="email">
+            <input type="submit" value="subscribe" class="btn">
+            <img src="image/payment.png" class="payment-img" alt="">
+        </div>
+
+    </div>
+
+    <div class="credit"> created by <span> mr. web designer </span> | all rights reserved </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+</body>
+</html>
